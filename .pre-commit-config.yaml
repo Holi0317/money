@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/Cretezy/flutter-format-pre-commit
+    rev: "4a1df67"
+    hooks:
+      - id: flutter-format
+  - repo: https://github.com/dluksza/flutter-analyze-pre-commit
+    rev: "0bfdb74"
+    hooks:
+      - id: flutter-analyze
